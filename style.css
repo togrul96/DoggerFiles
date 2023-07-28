@@ -1,0 +1,415 @@
+body {
+  font-family: "Dosis", sans-serif;
+  font-weight: 500;
+}
+
+.imgbox img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+section {
+  padding: 70px 0;
+}
+
+#carefor .textbox h1 {
+  font-weight: 700;
+  font-size: 50px;
+  margin: 0 0 10px;
+}
+#carefor .textbox h3 {
+  color: #918989;
+  font-size: 24px;
+}
+#carefor .imgbox {
+  width: 500px;
+}
+@media screen and (max-width: 768px) {
+  #carefor .textbox h1 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  #carefor .textbox h3 {
+    margin-bottom: 20px;
+  }
+}
+
+#welcome .textbox {
+  padding: 70px;
+}
+#welcome .textbox h1 {
+  font-weight: 700;
+  font-size: 35px;
+}
+#welcome .textbox h3 {
+  color: #888080;
+  margin: 20px 0 50px;
+  font-size: 20px;
+}
+#welcome .textbox h2, #welcome .textbox h6 {
+  margin: 15px 0;
+}
+#welcome .textbox h2 {
+  font-size: 33px;
+}
+#welcome .textbox h6 {
+  font-size: 18px;
+}
+#welcome .textbox .btn {
+  padding: 10px 30px;
+  border-radius: 20px;
+  background-color: #84af82;
+  color: white;
+}
+#welcome .wid {
+  width: 580px;
+  padding: 0;
+}
+#welcome .icon {
+  color: #a3b1b6;
+}
+#welcome .icon i {
+  font-size: 30px;
+  margin: 0 0 25px;
+}
+@media screen and (max-width: 992px) {
+  #welcome .textbox {
+    padding: 20px;
+  }
+  #welcome .imgbox {
+    margin-top: 30px;
+  }
+}
+
+#aboutus .textbox {
+  padding: 0 100px;
+}
+#aboutus .textbox h1 {
+  font-weight: 700;
+  font-size: 35px;
+}
+#aboutus .textbox h3, #aboutus .textbox p {
+  color: #a59a9a;
+  font-weight: 100;
+  font-size: 20px;
+  margin: 20px 0 0;
+  line-height: 1.6;
+}
+#aboutus .textbox p {
+  font-size: 18px;
+  color: #706868;
+  line-height: 1.4;
+}
+#aboutus .textbox li {
+  display: flex;
+  padding: 20px 0 0;
+}
+#aboutus .textbox .icon {
+  color: #a3b1b6;
+  padding: 0 15px 0 0;
+}
+#aboutus .textbox h4 {
+  font-size: 20px;
+  color: #8b7878;
+}
+#aboutus .bigicon i {
+  font-size: 30px;
+  margin: 0 0 20px 20px;
+}
+#aboutus .imgbox {
+  width: 450px;
+}
+@media screen and (max-width: 992px) {
+  #aboutus .textbox {
+    padding: 0;
+  }
+  #aboutus .textbox h1 {
+    font-size: 30px;
+  }
+  #aboutus .imgbox {
+    display: flex;
+    align-self: center;
+    height: 500px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #aboutus .imgbox {
+    margin-top: 30px;
+  }
+}
+
+#ourtrainers h1 {
+  font-weight: 700;
+  font-size: 35px;
+}
+#ourtrainers h3, #ourtrainers h4 {
+  font-weight: 300;
+  font-size: 20px;
+  color: #999999;
+  margin: 20px 0;
+  line-height: 1.4;
+}
+#ourtrainers .box {
+  margin: 0 3px;
+}
+#ourtrainers .box .textbox {
+  padding: 15px;
+}
+#ourtrainers .box h2 {
+  font-weight: 300;
+  font-size: 25px;
+  padding: 20px 0 0;
+}
+#ourtrainers .box ul {
+  display: flex;
+  flex-direction: row;
+}
+#ourtrainers .box ul li {
+  margin: 10px;
+  background-color: #979797;
+  border-radius: 70px;
+  text-align: center;
+  padding: 20px;
+  width: 10px;
+  height: 10px;
+}
+#ourtrainers .box ul li .icon {
+  margin: -7px;
+  color: white;
+}
+#ourtrainers .wid {
+  width: 580px;
+}
+#ourtrainers .bigicon {
+  color: #a3b1b6;
+}
+#ourtrainers .bigicon i {
+  font-size: 30px;
+  margin: 0 0 25px;
+}
+@media screen and (max-width: 768px) {
+  #ourtrainers .box {
+    margin-bottom: 40px;
+  }
+  #ourtrainers .box .textbox {
+    padding: 0;
+  }
+  #ourtrainers .box ul li {
+    margin-left: 5px;
+    padding: 17px;
+    font-size: 15px;
+  }
+}
+
+#pricingtable .textbox {
+  width: 580px;
+  text-align: center;
+}
+#pricingtable .textbox h1 {
+  font-weight: 700;
+  font-size: 35px;
+}
+#pricingtable .textbox h5 {
+  font-weight: 200;
+  font-size: 20px;
+  color: #928c8c;
+  margin: 20px 0 50px;
+}
+#pricingtable .box {
+  width: 340px;
+  color: white;
+  background-color: #b4cecc;
+  padding: 40px 30px;
+  text-align: center;
+  border-radius: 10px;
+}
+#pricingtable .box h2 {
+  font-size: 30px;
+}
+#pricingtable .box h3 {
+  font-size: 30px;
+  margin: 20px 0 0;
+}
+#pricingtable .box li {
+  display: flex;
+  justify-content: center;
+  margin: 25px 0 0;
+}
+#pricingtable .box li h4 {
+  font-size: 18px;
+  margin: 0 0 0 10px;
+}
+#pricingtable .box .btn {
+  padding: 10px 35px;
+  margin: 30px 0 0;
+  border-radius: 30px;
+  background-color: #304858;
+  color: #fff;
+}
+#pricingtable .bigicon {
+  color: #a3b1b6;
+}
+#pricingtable .bigicon i {
+  font-size: 30px;
+  margin: 0 0 20px;
+}
+#pricingtable .PREMIUM-color {
+  background-color: #444141;
+}
+#pricingtable .PREMIUM-color .btn {
+  background-color: #b4cecc;
+}
+@media screen and (max-width: 992px) {
+  #pricingtable .box {
+    padding: 18px;
+    margin-bottom: 20px;
+  }
+}
+
+#questions h1 {
+  font-weight: 700;
+  font-size: 36px;
+  margin: 15px 0;
+}
+#questions h3 {
+  font-size: 20px;
+  margin: 0 0 40px;
+  line-height: 1.4;
+}
+#questions .textbox {
+  padding: 0 70px;
+}
+#questions .textbox h2, #questions .textbox h4 {
+  font-size: 22px;
+  margin: 0 0 0 10px;
+  color: #717171;
+}
+#questions .textbox .minibox {
+  margin: 15px 0 0;
+}
+#questions .textbox h2 {
+  margin: 0 0 0 10px;
+}
+#questions .textbox p {
+  font-size: 20px;
+  margin: 30px 0 0 32px;
+  color: #949494;
+}
+#questions .textbox li {
+  display: flex;
+  margin: 30px 0 0;
+}
+#questions .icon {
+  color: #d4cece;
+}
+#questions .icon i {
+  font-size: 22px;
+}
+#questions .wid {
+  width: 580px;
+}
+#questions .bigicon i {
+  font-size: 30px;
+  margin: 0 0 25px;
+}
+@media screen and (max-width: 992px) {
+  #questions .textbox {
+    padding: 0;
+  }
+  #questions .imgbox {
+    margin-top: 40px;
+  }
+}
+
+#doggerblog h1 {
+  font-weight: 700;
+  font-size: 35px;
+}
+#doggerblog h3 {
+  font-size: 20px;
+  margin: 30px 0 60px;
+}
+#doggerblog .box {
+  display: flex;
+}
+#doggerblog .box .textbox {
+  margin-left: 20px;
+}
+#doggerblog .box h2 {
+  font-size: 22px;
+}
+#doggerblog .box h4 {
+  color: #aba8a8;
+  font-size: 18px;
+}
+#doggerblog .box p {
+  font-size: 18px;
+  color: #8f8686;
+}
+#doggerblog .box p, #doggerblog .box h4 {
+  margin: 20px 0 0;
+}
+#doggerblog .wid {
+  width: 580px;
+}
+#doggerblog .icon {
+  color: #a3b1b6;
+}
+#doggerblog .icon i {
+  font-size: 30px;
+  margin: 0 0 25px;
+}
+@media screen and (max-width: 992px) {
+  #doggerblog .box .imgbox {
+    width: 900px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #doggerblog .box {
+    margin-bottom: 50px;
+  }
+}
+
+#ourservices .wid {
+  width: 580px;
+}
+#ourservices h1 {
+  font-weight: 700;
+  font-size: 35px;
+}
+#ourservices h3 {
+  font-size: 20px;
+  color: #c6c6c6;
+  margin: 30px 0;
+}
+#ourservices .textbox {
+  padding: 30px 40px;
+}
+#ourservices .textbox h2 {
+  font-size: 25px;
+  color: #757575;
+  margin: 20px 0 0;
+}
+#ourservices .textbox h3 {
+  margin: 30px 0 0;
+}
+#ourservices .textbox .icon i {
+  font-size: 60px;
+}
+#ourservices .bigicon {
+  color: #a3b1b6;
+}
+#ourservices .bigicon i {
+  font-size: 30px;
+  margin: 0 0 25px;
+}
+@media screen and (max-width: 992px) {
+  #ourservices .textbox {
+    padding: 0;
+    margin-bottom: 40px;
+  }
+  #ourservices .textbox h3 {
+    margin: 20px 0;
+  }
+}/*# sourceMappingURL=style.css.map */
